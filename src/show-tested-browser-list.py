@@ -47,7 +47,7 @@ class ScreenshotTestApi:
 
 
 config = ConfigParser.ConfigParser()
-config.read("auth.cfg")
+config.read("auth.config")
 
 # set authentication info
 username = config.get("Authentication", "username")
